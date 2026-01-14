@@ -1,5 +1,22 @@
 ## Create
-for i in range(10):
-	if i%2 == 0:
-		return sum(i)
+import random
+
+def add(a,b):
+	for i in range(10):
+	a = random.randint(1,10)
+	b = random.randint(1,10
+	if not a == b:			
+		return sum(a,b)
+
+
+## Fix: rename func add to adder
+import random
+
+def adder(a,b):
+        for i in range(10):
+        a = random.randint(1,10)
+        b = random.randint(1,10
+        if not a == b:
+                return sum(a,b)
+
 
